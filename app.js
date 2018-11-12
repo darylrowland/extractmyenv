@@ -67,7 +67,7 @@ function printoutVariablesWithValues() {
 }
 
 async function start() {
-    await readFilesInDir(__dirname);
+    await readFilesInDir(process.cwd());
     printoutVariablesWithValues();
 }
 
