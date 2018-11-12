@@ -1,6 +1,6 @@
 {
   "name": "extractmyenv",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Extract environment variables (and their values) from your code",
   "main": "app.js",
   "directories": {
