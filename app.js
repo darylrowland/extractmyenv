@@ -12,7 +12,9 @@ async function readFilesInDir(dir) {
 
     for (file of files) {
         if (fs.statSync(dir + "/" + file).isDirectory()) {
-            await readFilesInDir(dir + "/" + file);
+            if (file.toLowerCase() !== "node_modules") {
+                await readFilesInDir(dir + "/" + file);
+            }
         } else {
             // This is a file, read it
             await readFileAndExtractEnvironmentVariables(dir + "/" + file);
