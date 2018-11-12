@@ -1,0 +1,14 @@
+{
+  "name": "extractmyenv",
+  "version": "0.1.0",
+  "description": "Extract environment variables (and their values) from your code",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daryl Rowland",
+  "license": "ISC"
+}
