@@ -10,6 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "bin": {
+    "extractmyenv": "./app.js"
+  },
   "author": "Daryl Rowland",
   "license": "ISC"
 }
